@@ -28,14 +28,14 @@ DB_PORT=5432
 
 4. Перейти в папку "backend", устанавить пакеты, запустить сервер
 
-cd .../shop/backend
+cd <Путь до папки>/shop/backend
 npm install
 npm run start-dev
 
 5. Перейти в папку "frontend", устанавить пакеты, запустить клиент
 
 
-cd .../shop/frontend
+cd <Путь до папки>/shop/frontend
 npm install
 npm start
 
