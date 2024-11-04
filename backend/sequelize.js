@@ -1,15 +1,15 @@
 import { Sequelize } from 'sequelize'
 
 export default new Sequelize(
-    process.env.DB_NAME, // база данных
-    process.env.DB_USER, // пользователь
-    process.env.DB_PASS, // пароль
+    process.env.DB_NAME, // наименование базы данных
+    process.env.DB_USER, // имя пользователя для доступа к БД
+    process.env.DB_PASS, // пароль пользователя для доступа к БД
     {
         dialect: 'postgres',
         host: process.env.DB_HOST,
         port: process.env.DB_PORT,
         define: {
-            // в базе данных поля будут created_at и updated_at
+            
             underscored: true
         },
         logging: false,
