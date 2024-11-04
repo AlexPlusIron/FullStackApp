@@ -47,6 +47,12 @@ npm install
 
 npm start
 
+В случае возникновения ошибки "Error: error:0308010c:digital envelope routines::unsupported" необходимо обновить React до версии 5. Для этого нужно выполнить следующие команды:
+
+npm uninstall react-scripts
+
+run npm install react-scripts
+
 ***Примечания***
 
 Пустые таблицы базы данных onlineshop будут созданы при первом запуске приложения. Дамп базы данных из файла "shop_database.sql" содержит некоторое наполнение таблиц, его можно загрузить в базу данных:
