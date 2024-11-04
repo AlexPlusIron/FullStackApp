@@ -49,7 +49,7 @@ npm start
 
 ***Примечания***
 
-Пустые таблицы базы данных будут созданы при первом запуске приложения. Дамп базы данных из файла "shop_database.sql" содержит некоторое наполнение таблиц, его можно загрузить в базу данных:
+Пустые таблицы базы данных onlineshop будут созданы при первом запуске приложения. Дамп базы данных из файла "shop_database.sql" содержит некоторое наполнение таблиц, его можно загрузить в базу данных:
 
 <Путь до папки>/postgre/bin/psql -U postgres onlineshop < <Путь до папки>/shop/shop_database.sql
 
@@ -59,10 +59,6 @@ npm start
 
 admin@mail.ru, пароль "qwerty"
 
-admin2@mail.ru, пароль "qwerty"
-
 simpleuser@mail.ru, пароль "qwerty"
-
-simpleuser2@mail.ru, пароль "qwerty"
 
 "# FullStackApp" 
