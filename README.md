@@ -49,6 +49,8 @@ npm start
 
 В случае возникновения ошибки "Error: error:0308010c:digital envelope routines::unsupported" необходимо обновить React до версии 5. Для этого нужно выполнить следующие команды:
 
+cd <Путь до папки>/shop/frontend
+
 npm uninstall react-scripts
 
 run npm install react-scripts
